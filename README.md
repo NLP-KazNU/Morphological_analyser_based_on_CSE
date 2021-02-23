@@ -1,4 +1,5 @@
 # Morphological_analyser_based_on_CSE
+Ualsher Tukeyev, Dina Amirova
 How to use
 
 1. Download repository
