@@ -1,4 +1,6 @@
 # Morphological_analyser_based_on_CSE
+
+The products have to use on base of Creative Commons licences, exactly, CC BY-SA (CC Attribution-Share Alike);
 # How to use
 
 1. Download repository
