@@ -217,9 +217,9 @@ def segmentation(text, affixes_fn):
 
 #******************** main ********************#
 
-text_file_name = "text.kk" #or # input("Name of the text file: ") #"text.txt"
+text_file_name = "text.txt" #or # input("Name of the text file: ") #"text.txt"
 affixes_file_name = "affixes.xls" #or # input("Name of the affix file: ") #"affixes.xls"
-stopwords_file_name = "stopwords.txt" #or # input("Name of the stop-words file: ") #"stop_words.txt"
+stopwords_file_name = "stop_words.txt" #or # input("Name of the stop-words file: ") #"stop_words.txt"
 stems_file_name = "truestems.txt" #or #input("Name of the vocabulary of correct stems: ") #"truestems.txt"
 
 ### 1-st process "Stemming"
