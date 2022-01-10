@@ -205,12 +205,12 @@ def segmentation(text, affixes_fn):
             seg_text = re.sub((rf"\b{affix0}\b"), affix1, seg_text)
     #print(seg_text)
         
-    output_file_name1 = "text_after_segmentation.txt"
+    output_file_name1 = "text_after_morph_analysis.txt"
     output_file1 = open(output_file_name1, 'w', encoding="utf-8")
     output_file1.write(seg_text)
     output_file1.close()
 
-    print("The results of the morphological segmentation process are written to a file " + output_file_name1 + " and saved in the folder where this python file is located")
+    print("The results of the morphological analysis process are written to a file " + output_file_name1 + " and saved in the folder where this python file is located")
     return seg_text
 
 
@@ -228,5 +228,5 @@ text = stemming_with_lexicon(text_file_name, affixes_file_name, stopwords_file_n
 
 ### 2-nd process "Segmentation or Morph analyze"
 result_text = segmentation(text, affixes_file_name)
-#print("\nText after Segmentation:\n" + result_text)
+#print("\nText after Morph_analysis:\n" + result_text)
 
